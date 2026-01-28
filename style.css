@@ -1,0 +1,30 @@
+/* Ajustes para fotos */
+.card-img-top {
+    height: 120px;
+    object-fit: cover;
+}
+
+/* Botón flotante estilo App moderna */
+#btn-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    padding: 15px 30px;
+    z-index: 1050;
+}
+
+/* Ajuste de texto para nombres de platos largos */
+.card-title {
+    font-size: 0.9rem;
+    height: 2.4rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Evitar zoom automático en iPhone al tocar inputs */
+input, select, textarea {
+    font-size: 16px !important;
+}
