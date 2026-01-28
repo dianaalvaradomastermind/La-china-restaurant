@@ -1,4 +1,4 @@
-const URL_API = "https://script.google.com/macros/s/AKfycbxGJBkDaEsVY-QIxtGfIGlLIsAIje6w5roUQ7a5WHDFJC_WuafcOuVpQuFmNFtUw2ZE/exec"; 
+const URL_API = "https://script.google.com/macros/s/AKfycbyORImWi9XN4qddpvlktsAtHgIlk82LpJ2SOkzSqcXcTfp6h-5jjA0tER0dRz3u4Oc/exec"; 
 let menu = [], carrito = [];
 
 // Cargar datos al abrir la app
@@ -72,4 +72,5 @@ async function enviar() {
     
     alert("✅ Pedido registrado en Google Sheets");
     location.reload(); // Limpiar todo
+
 }
